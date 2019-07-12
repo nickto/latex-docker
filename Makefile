@@ -1,6 +1,6 @@
 DOCKER_USER:=nickto
 DOCKER_ORGANIZATION=nickto
-DOCKER_IMAGE:=arch
+DOCKER_IMAGE:=latex
 BRANCH := $(shell git rev-parse --abbrev-ref HEAD)
 DOCKER_TAG:=$(BRANCH)
 

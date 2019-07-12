@@ -1,4 +1,4 @@
-FROM nickto/arch
+FROM nickto/arch:base-devel
 RUN pacman --noconfirm -S \
         texlive-most \
         texlive-langcyrillic \
